@@ -1878,3 +1878,12 @@ footer .footer-col .social-list a:hover {
   font-size: 40px;
   font-weight: 800;
 }
+.welcome-container {
+    background-attachment: scroll; 
+}
+
+@media (min-width: 768px) {
+    .welcome-container {
+        background-attachment: fixed;
+    }
+}
